@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validate details on the OnBoarding Screen",
+        "description": "",
+        "id": "verify-86400-bank-app-features;validate-details-on-the-onboarding-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20238544069,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the App",
+            "match": {
+              "location": "onBoardingSteps.i_launch_the_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28336561356,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I check the OnBoarding Screen",
+            "match": {
+              "location": "onBoardingSteps.i_check_OnBoarding_Screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1540128447,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click the OK Button",
+            "match": {
+              "location": "onBoardingSteps.i_click_the_OK_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2261660262,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should navigate to App Homepage",
+            "match": {
+              "location": "onBoardingSteps.i_should_navigate_to_App_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify 86400 Bank App features",
+    "description": "",
+    "id": "verify-86400-bank-app-features",
+    "keyword": "Feature",
+    "uri": "onBoardingScreen.feature"
+  }
+]

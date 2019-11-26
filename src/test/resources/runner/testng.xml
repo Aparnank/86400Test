@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="86400 Test Suite" >
+<test name="86400 Test" >
+<classes>
+<class name ="app.runner.TestRunner1"></class>
+</classes> 
+</test>
+</suite>

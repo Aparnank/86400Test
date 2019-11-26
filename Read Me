@@ -3,7 +3,7 @@
 1.Run from terminal
    >Cd 86400BankTest 
    
-   >mvn clean install
+   >mvn clean install (runs with java 8)
 
 Or
 

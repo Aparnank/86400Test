@@ -14,16 +14,16 @@ Reports : target—>cucumber-reports (general report)
 
 Project structure
 
-app.base - testable class to initialise driver
+app.base - testbase class to initialise driver
 
 app.feature - feature files
 
-App.pages.android- page object for each page
+app.pages.android- page object for each page
 
-App.runner - runner class to run the cucumber features and step definitions
+app.runner - runner class to run the cucumber features and step definitions
 
-App.stepdefinitions - step definiton for each feature file from app.feature
+app.stepdefinitions - step definiton for each feature file in app.feature
 
-App.util :  initialising capabilities from properties file
+app.util :  initialising driver capabilities from properties file
 
 testng.xml: to run testrunner.java
